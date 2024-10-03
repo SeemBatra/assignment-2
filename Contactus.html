@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bliss Travel Agency</title>
+    <link rel="stylesheet" href="Contactus.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+
+        <div class="contact-info">
+            <p>Phone: 123-456-7890</p>
+            <p>Email: contact@blisstravel.com</p>
+            <p>Address: 123 Travel Lane, Adventure City</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bliss Travel Agency</p>
+    </footer>
+</body>
+</html>
